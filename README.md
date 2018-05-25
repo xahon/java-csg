@@ -5,6 +5,12 @@ Java-CSG
 <i>Fork of [miho/JCSG](https://github.com/miho/JCSG)
 It's forked to be optimized and support [jmonkeyengine 3](https://github.com/jMonkeyEngine/jmonkeyengine)</i>
 
+### TODO list
+- Unwrap recursion into loops to fix stack overflow exceptions on complex meshes
+- Add UV support
+---
+
+
 Java implementation of BSP based CSG (Constructive Solid Geometry). It is the only simple and free Java implementation I am aware of. This implementation uses an optimized CSG algorithm based on [csg.js](https://github.com/evanw/csg.js) (see `CSG` and `Node` classes). Thanks to the author for creating the [csg.js](https://github.com/evanw/csg.js) library.
 
 In addition to CSG this library provides the following features:
